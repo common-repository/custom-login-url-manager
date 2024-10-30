@@ -1,0 +1,184 @@
+/* Stylowanie formularza w panelu administracyjnym */
+
+.form-table {
+    width: 100%; /* Zmniejszenie szerokości tabeli */
+    margin: 0 auto;
+    border-spacing: 0 10px; /* Przerwy między wierszami */
+}
+
+.form-table th {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    padding-right: 20px;
+    text-align: left;
+    vertical-align: top;
+    width: 180px; /* Zmniejszenie szerokości dla lepszej organizacji */
+}
+
+.form-table td {
+    padding: 0 10px;
+}
+
+.form-table td input[type="text"] {
+    width: 100%;
+    max-width: 300px; /* Ograniczenie maksymalnej szerokości pól tekstowych */
+    padding: 8px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.2s ease-in-out;
+}
+
+.form-table td input[type="text"]:focus {
+    border-color: #007cba;
+    box-shadow: 0 0 5px rgba(0, 123, 202, 0.5);
+    outline: none;
+}
+
+.form-table p.description {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+    line-height: 1.4;
+    max-width: 400px;
+}
+
+/* Stylowanie przycisków zapisu */
+.wrap .submit input[type="submit"] {
+    background-color: #007cba;
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.wrap .submit input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+/* Stylowanie tabeli */
+.form-table td {
+    padding-bottom: 10px;
+}
+
+.form-table th {
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Stylowanie sekcji informacji */
+.clumanager-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.clumanager-info h1 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.clumanager-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+ul.points {
+    list-style: none;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+ul.points li::before {
+    position: relative;
+    content: "\2022";
+    color: #ee751b;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 0;
+}
+
+/* Stylowanie wyrazistej żółtej notyfikacji */
+.clumanager-admin-notice {
+    padding: 15px;
+    border-left: 4px solid #ffba00; /* Jasnożółty kolor na pasku po lewej */
+    background-color: #fff4db; /* Jasne żółte tło dla notyfikacji */
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.clumanager-admin-notice p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333; /* Ciemniejszy tekst dla kontrastu */
+}
+
+.clumanager-admin-notice a.button-primary {
+    background-color: #ffba00;
+    border-color: #ffba00;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.clumanager-admin-notice a.button-secondary {
+    background-color: #f7f7f7;
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+}
+
+/* Stylowanie przycisku "Buy me Coffee" na czarno */
+.clumanager-admin-notice a.button-secondary.black {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.clumanager-admin-notice a.button-primary:hover {
+    background-color: #e6a700; /* Lekko ciemniejszy odcień na hover */
+    border-color: #e6a700;
+}
+
+.clumanager-admin-notice a.button-secondary:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+
+/* Stylowanie hover dla czarnego przycisku */
+.clumanager-admin-notice a.button-black:hover {
+    background-color: #333; /* Lekko jaśniejszy odcień czerni na hover */
+    border-color: #333;
+}
+
+

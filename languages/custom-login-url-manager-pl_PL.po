@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Login URL Manager - Hide Login Admin URL\n"
+"POT-Creation-Date: 2024-10-20 12:41+0200\n"
+"PO-Revision-Date: 2024-10-20 12:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: custom-login-url-manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/admin-settings.php:11
+msgid "Custom Login URL Manager - Settings"
+msgstr "Custom Login URL Manager - Ustawienia"
+
+#: admin/admin-settings.php:23
+msgid "Settings saved successfully!"
+msgstr "Ustawienia zostały pomyślnie zapisane!"
+
+#: admin/admin-settings.php:25
+msgid "Failed to save settings. Please try again."
+msgstr "Nie udało się zapisać ustawień. Spróbuj ponownie."
+
+#: admin/admin-settings.php:28
+msgid "Nonce verification failed. Please try again."
+msgstr "Weryfikacja nie powiodła się. Spróbuj ponownie."
+
+#: admin/admin-settings.php:42
+msgid "Custom Login URL"
+msgstr ""
+
+#: admin/admin-settings.php:44
+msgid "e.g., login"
+msgstr "np. logowanie"
+
+#: admin/admin-settings.php:45
+msgid ""
+"Change the default login URL to enhance the security of your site by hiding "
+"the standard wp-login.php."
+msgstr ""
+"Zmień domyślny adres URL logowania, aby zwiększyć bezpieczeństwo swojej "
+"witryny, ukrywając standardowy plik wp-login.php."
+
+#: admin/admin-settings.php:49
+msgid "Redirect URL"
+msgstr "Przekieruj adres URL"
+
+#: admin/admin-settings.php:51
+msgid "e.g., 404"
+msgstr "np. 404"
+
+#: admin/admin-settings.php:52
+msgid ""
+"Specify the URL to redirect unauthorized users who try to access wp-login."
+"php, wp-admin, or admin without proper permissions. If left empty, it will "
+"redirect to the homepage."
+msgstr ""
+"Określ adres URL, aby przekierować nieautoryzowanych użytkowników, którzy "
+"próbują uzyskać dostęp do wp-login.php, wp-admin lub admin bez odpowiednich "
+"uprawnień. Jeśli pozostanie pusty, przekieruje do strony głównej."
+
+#. Description of the plugin/theme
+#: custom-login-url-manager.php:28
+msgid ""
+"A plugin that allows you to change your login address in WordPress and "
+"redirect blocked addresses to a specified URL."
+msgstr ""
+"Wtyczka umożliwiająca zmianę adresu logowania w WordPressie i przekierowanie "
+"zablokowanych adresów na określony adres URL."
+
+#: custom-login-url-manager.php:44 custom-login-url-manager.php:45
+msgid "Custom Login Manager"
+msgstr ""
+
+#: custom-login-url-manager.php:55 custom-login-url-manager.php:56
+#: custom-login-url-manager.php:69
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: custom-login-url-manager.php:79 includes/class-login-url-notice.php:37
+msgid "Buy me Coffee"
+msgstr "Kup mi kawę"
+
+#: includes/class-login-url-handler.php:71
+msgid "Unauthorized access."
+msgstr "Nieautoryzowany dostęp."
+
+#: includes/class-login-url-info.php:12
+msgid "Welcome to Custom Login URL Manager"
+msgstr "Witaj w Custom Login URL Manager"
+
+#: includes/class-login-url-info.php:13
+msgid ""
+"Thank you for using Custom Login URL Manager! This plugin helps you enhance "
+"the security of your WordPress site by allowing you to change the default "
+"login URL and redirect unauthorized login attempts."
+msgstr ""
+"Dziękujemy za korzystanie z Custom Login URL Manager! Ta wtyczka pomaga "
+"zwiększyć bezpieczeństwo Twojej witryny WordPress, umożliwiając zmianę "
+"domyślnego adresu URL logowania i przekierowywanie nieautoryzowanych prób "
+"logowania."
+
+#: includes/class-login-url-info.php:15
+msgid "Key Features:"
+msgstr "Główne cechy:"
+
+#: includes/class-login-url-info.php:17
+msgid ""
+"Change the default WordPress login URL (wp-login.php) to a custom URL for "
+"added security."
+msgstr ""
+"Aby zwiększyć bezpieczeństwo, zmień domyślny adres URL logowania WordPress "
+"(wp-login.php) na niestandardowy adres URL."
+
+#: includes/class-login-url-info.php:18
+msgid ""
+"Redirect unauthorized access attempts to wp-login.php or wp-admin to a "
+"specified URL, such as a custom error page or homepage."
+msgstr ""
+"Przekieruj próby nieautoryzowanego dostępu do pliku wp-login.php lub wp-"
+"admin na określony adres URL, na przykład na stronę błędu lub stronę główną."
+
+#: includes/class-login-url-info.php:19
+msgid ""
+"User-friendly interface for easy configuration of login URL and redirect "
+"settings."
+msgstr ""
+"Przyjazny dla użytkownika interfejs umożliwiający łatwą konfigurację adresu "
+"URL logowania i ustawień przekierowania."
+
+#: includes/class-login-url-info.php:20
+msgid "Translation-ready for localization into any language."
+msgstr "Gotowe do tłumaczenia i lokalizacji na dowolny język."
+
+#: includes/class-login-url-info.php:21
+msgid "Lightweight and optimized for performance."
+msgstr "Lekka i zoptymalizowana pod kątem wydajności."
+
+#: includes/class-login-url-info.php:24
+msgid ""
+"To get started, navigate to the \"Settings\" page in the Custom Login "
+"Manager menu to configure your custom login URL and redirect options."
+msgstr ""
+"Aby rozpocząć, przejdź do strony „Ustawienia” w menu Menedżera logowania "
+"niestandardowego, aby skonfigurować niestandardowy adres URL logowania i "
+"opcje przekierowania."
+
+#: includes/class-login-url-notice.php:33
+msgid ""
+"Hello! We’re glad to see you’ve been using Custom Login URL Manager. If "
+"you’re happy with the plugin, we’d be thrilled if you could leave us a "
+"rating. Your support helps us grow and improve."
+msgstr ""
+"Cześć! Cieszymy się, że używasz Custom Login URL Manager. Jeśli jesteś "
+"zadowolony z wtyczki, bylibyśmy zachwyceni, gdybyś mógł nam wystawić ocenę. "
+"Twoje wsparcie pomaga nam się rozwijać i doskonalić."
+
+#: includes/class-login-url-notice.php:36
+msgid "Rate this plugin"
+msgstr "Oceń tę wtyczkę"
+
+#: includes/class-login-url-notice.php:38
+msgid "Don't show again"
+msgstr "Nie pokazuj ponownie"
+
+#. Plugin Name of the plugin/theme
+msgid "Custom Login URL Manager - Hide Login Admin URL"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/custom-login-url-manager/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CPManager"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://custompostmanager.com/"
+msgstr ""
